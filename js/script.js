@@ -1,5 +1,28 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2023 Mohamad All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Mohamad
+// Created on: May 2023
 // This file contains the JS functions for index.html
+
+/*
+* This function does multiploication using an old and simple method
+*/
+
+
+function calcualte() {
+  // Define variable
+  let counter = 0
+  let answer = 0
+
+  // Get user unput
+  const numberA = parseInt(document.getElementById("numberA"))
+  const numberB = parseInt(document.getElementById("numberB"))
+
+  // Perform multiplication
+  while (counter < numberB) {
+    answer += numberA
+    // Add 1 to counter (for each loop performed)
+    counter++
+  }
+  console.log("Done counting. \nThe answer is" + answer + ".")
+}
