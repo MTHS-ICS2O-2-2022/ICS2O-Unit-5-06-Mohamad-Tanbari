@@ -9,7 +9,7 @@
 */
 
 
-function calcualte() {
+function calculate() {
   // Define variable
   let counter = 0
   let answer = 0
@@ -24,5 +24,7 @@ function calcualte() {
     // Add 1 to counter (for each loop performed)
     counter++
   }
-  console.log("Done counting. \nThe answer is" + answer + ".")
+
+  // Output answer
+  document.getElementById("answer").innerHTML = "The answer is " + answer
 }
