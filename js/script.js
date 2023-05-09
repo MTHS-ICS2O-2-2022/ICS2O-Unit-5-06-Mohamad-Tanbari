@@ -8,15 +8,14 @@
 * This function does multiploication using an old and simple method
 */
 
-
 function calculate() {
   // Define variable
   let counter = 0
   let answer = 0
 
   // Get user unput
-  const numberA = parseInt(document.getElementById("numberA"))
-  const numberB = parseInt(document.getElementById("numberB"))
+  const numberA = parseInt(document.getElementById("numberA").value)
+  const numberB = parseInt(document.getElementById("numberB").value)
 
   // Perform multiplication
   while (counter < numberB) {
